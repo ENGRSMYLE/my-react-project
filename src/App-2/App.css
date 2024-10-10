@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 100vw;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: aquamarine;
+  padding: 20px;
+}
+.logo:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.addtodo {
+  width: 100vw;
+  background-color: bisque;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 650px) {
+    flex-direction: column;
+  }
+}
+
+.addtodo:hover {
+  background-color: burlywood;
+}
+
+.addtodo select,
+.addtodo input,
+.addtodo button {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.addtodo button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.addtodo button:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  color: black;
+}
+
+.todolist {
+  width: 100vw;
+  height: 65vh;
+  background-color: lightcoral;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachtodo {
+    font-size: 25px;
+    font-weight: bold;
+    width: 40vw;
+    border: 2px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.eachtodo button {
+    font-size: 20px;
+}
+
+.stats {
+  text-align: center;
+  background-color: greenyellow;
+  font-size: 25px;
+  font-weight: bold;
+  height: 8vh;
+}
+
+
