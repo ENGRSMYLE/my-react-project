@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.disp-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
